@@ -27,14 +27,25 @@ function Header() {
                 <a href="">Complaint</a>
               </li>
               <li>
-                <a href=""></a>
+                <a href="">Log in</a>
               </li>
               <li>
-                <a href="">Home</a>
+                <a href="">Log out</a>
               </li>
             </ul>
 
 
+          </div>
+
+        </div>
+      </div>
+
+      <div className="mob-nav">
+        <div className="row al">
+
+          <div className="brand">
+
+            <h1 className='fw-bolder' >Black Squad</h1>
           </div>
 
         </div>
