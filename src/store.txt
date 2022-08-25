@@ -1,0 +1,8 @@
+colours
+
+#000000 - dark blue
+#3E065F - dark purple
+#700B97 - md purple
+#8E05C2 - purple
+
+https://colorhunt.co/palette/0000003e065f700b978e05c2 - color palette

@@ -1,19 +1,11 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
-
   return (
     <div className="App">
+      <Header/>
 
-
-      <audio
-        autoPlay="autoPlay"
-        href="audio_tag"
-        loop
-        src="assets/Music/bgm.mp3"
-        type="audio/mpeg"
-        controls
-      ></audio>
     </div>
   );
 }
