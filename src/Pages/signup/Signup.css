@@ -23,5 +23,11 @@
     backdrop-filter: blur(8px);
     position: relative;
     top: 2rem;
+    border-radius: 20px;
+}
+.ps{
+    position: relative;
+    top: 3rem;
+    color: #fff;
 }
 
