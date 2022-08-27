@@ -2,7 +2,7 @@ import {useEffect} from 'react'
 import './App.css';
 import Header from './components/Header';
 import Signup from './Pages/signup/Signup';
-import Signup from './Pages/login/Login'
+import Login from './Pages/login/Login'
 import { Route, Routes } from 'react-router-dom'
 import Aos from "aos";
 import "aos/dist/aos.css";
