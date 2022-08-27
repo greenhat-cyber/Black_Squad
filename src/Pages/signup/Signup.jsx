@@ -1,5 +1,6 @@
 import React from 'react'
 import './Signup.css'
+import {NavLink} from "react-router-dom"
 
 function Signup() {
   return (
@@ -7,7 +8,7 @@ function Signup() {
       <div className="container-fluid">
         <div className="row">
           <div className="bg-image">
-            <div className="login ">
+            <div className="login" data-aos="flip-left" data-aos-duration="1200">
               <div className="container">
 
                 <div class="row g-3 ps">
@@ -33,7 +34,7 @@ function Signup() {
                   <div class="col-12">
                     <button type="button" class="btn btn-dark" >SignUp</button>
                   </div>
-                    <p style={{color:'#fff'}}>Already have an account ? <a href="http://" style={{color:'#0373fc'}}>Log in</a></p>
+                    <p style={{color:'#fff'}}>Already have an account ? <NavLink to="login" style={{color:'#0373fc'}}>Log in</NavLink></p>
                     
                 </div>
               </div>
