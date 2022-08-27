@@ -61,6 +61,7 @@ a{
     text-decoration: none;
 }
 
+
 @media only screen and (max-width: 992px) {
     .header {
         display: none;
