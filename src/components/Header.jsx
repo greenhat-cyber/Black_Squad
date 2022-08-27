@@ -18,19 +18,19 @@ function Header() {
                 <a href="">Home</a>
               </li>
               <li>
-                <a href="">About Us</a>
+                <a href="">Abouts</a>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <a href="">Contacts</a>
               </li>
               <li>
                 <a href="">Complaint</a>
               </li>
               <li>
-                <a href="">Log in</a>
+                <a href="">LogIn</a>
               </li>
               <li>
-                <a href="">Log out</a>
+                <a href="">LogOut</a>
               </li>
             </ul>
 
@@ -47,13 +47,46 @@ function Header() {
           </div>
           <div className="brand">
             <i class=" fas fa-bars i-s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"></i>
-            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas offcanvas-top bg-black " tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
               <div class="offcanvas-header">
-                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 id="offcanvasTopLabel" >Black Squad</h5>
+                <button type="button" class="btn-close text-reset bt-color" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-                ...
+                <div className="menu  ">
+                  <div className="row align ms-3 mt-3">
+                    <div className="col-md-4 color">
+
+                      <ul>
+                        <li  >
+                          <a   href="http://">Home  </a>
+                        </li>
+                        <li className='' >
+                          <a href="http://">Abouts  </a>
+                        </li>
+                        <li className='color' >
+                          <a href="http://">Contacts  </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-md-4 me-2">
+
+                      <ul>
+                        <li className='color' >
+                          <a href="http://">Complaint  </a>
+                        </li>
+                        <li className='color' >
+                          <a href="http://">LogIn  </a>
+                        </li>
+                        <li className='color' >
+                          <a href="http://">LogOut  </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
 

@@ -145,3 +145,25 @@ a{
     font-size: 1.5rem;
 }
 
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li:last-child{
+    margin-right: 0rem;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color a{
+    color: #fff;
+}
+.bt-color{
+    background-color: #fff;
+
+}
