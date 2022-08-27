@@ -66,7 +66,7 @@ function Header() {
                           <NavLink to="http://">Complaint  </NavLink>
                         </li>
                         <li className='color' >
-                          <NavLink to="http://">SignUp/LogIn  </NavLink>
+                          <NavLink to="/signup">SignUp/LogIn  </NavLink>
                         </li>
                       </ul>
                     </div>
