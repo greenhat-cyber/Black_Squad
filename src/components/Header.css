@@ -20,6 +20,8 @@
     flex-direction: row;
 
 }
+
+
 .rt{
     width: 50%;
     height: 80px;
@@ -42,11 +44,17 @@
 ul{
     display: flex;
     flex-direction: row;
+    
 }
 li{
     list-style: none;
-    width: 7rem;
+    margin-left: 2rem;
+    
 
+}
+
+li:last-child{
+    margin-right: 3rem;
 }
 a{
     color: var(--white);
@@ -129,5 +137,11 @@ a{
   background-color: rgb(255, 255, 255);
 }
 /* bvn */
-
+.i-s{
+    position: absolute;
+    left: 2rem;
+    top: 1.6rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
 
