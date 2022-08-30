@@ -8,7 +8,7 @@ function Signup() {
       <div className="container-fluid">
         <div className="row">
           <div className="bg-image">
-            <div className="login" data-aos="flip-left" data-aos-duration="1200">
+            <div className="signup" data-aos="flip-left" data-aos-duration="1200">
               <div className="container">
 
                 <form>
