@@ -19,13 +19,13 @@ function Header() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="">Abouts</NavLink>
+                <NavLink to="/about">Abouts</NavLink>
               </li>
               <li>
-                <NavLink to="">Contacts</NavLink>
+                <NavLink to="/contacts">Contacts</NavLink>
               </li>
               <li>
-                <NavLink to="">Complaint</NavLink>
+                <NavLink to="/complaint">Complaint</NavLink>
               </li>
               <li>
                 <NavLink to="/signup">SignUp/LogIn</NavLink>
@@ -50,20 +50,20 @@ function Header() {
                     <div className="col-md-4 color" data-aos="fade-left" data-aos-duration="1200">
                       <ul>
                         <li  >
-                          <NavLink to="http://">Home  </NavLink>
+                          <NavLink to="/">Home  </NavLink>
                         </li>
                         <li className='' >
-                          <NavLink to="http://">Abouts  </NavLink>
+                          <NavLink to="/about">Abouts  </NavLink>
                         </li>
                         <li className='color' >
-                          <NavLink to="http://">Contacts  </NavLink>
+                          <NavLink to="/contacts">Contacts  </NavLink>
                         </li>
                       </ul>
                     </div>
                     <div className="col-md-4 me-2">
                       <ul>
                         <li className='color' >
-                          <NavLink to="http://">Complaint  </NavLink>
+                          <NavLink to="/complaint">Complaint  </NavLink>
                         </li>
                         <li className='color' >
                           <NavLink to="/signup">SignUp/LogIn  </NavLink>
@@ -79,11 +79,6 @@ function Header() {
           </div>
         </div>
       </div>
-
-
-
-
-
     </div>
 
 

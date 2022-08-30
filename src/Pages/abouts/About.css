@@ -1,0 +1,34 @@
+.bg1{
+    background: url(/public/assets/images/bg1.jpg);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.glass-bg{
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(86, 86, 86, 0.129);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    position: relative;
+    top: 2rem;
+    border-radius: 20px;
+}
+
+.align1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+
+}
+.tx-hed{
+    text-shadow :#fff 2px 2px;
+}
+.p-al{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
