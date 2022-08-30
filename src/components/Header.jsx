@@ -16,7 +16,7 @@ function Header() {
 
             <ul className='menu5' data-aos="fade-left" data-aos-duration="1200">
               <li>
-                <NavLink to="">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
                 <NavLink to="">Abouts</NavLink>
