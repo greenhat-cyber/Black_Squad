@@ -5,6 +5,7 @@ import Signup from './Pages/signup/Signup';
 import Login from './Pages/login/Login'
 import Home from './Pages/home/Home'
 import About from './Pages/abouts/About';
+import Contacts from './Pages/Contacts/Contacts';
 import { Route, Routes } from 'react-router-dom'
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/signup' element={<Signup/>} />
         <Route exact path='/login' element={<Login/>} />
         <Route exact path='/about' element={<About/>} />
+        <Route exact path='/contacts' element={<Contacts/>} />
         
       </Routes>
 
