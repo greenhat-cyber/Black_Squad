@@ -3,10 +3,12 @@ import "./Contacts.css"
 
 function Contacts() {
     return (
-        <div>
-            <div className="container alig">
-                <div className="row ">
-                    <div className="col-sm-6 offset-sm-3 " >
+        <div id='contact' className='contacts'>
+
+
+            <div className="container">
+                <div className="row bl">
+                    <div className="col-sm-6 offset-sm-3   " >
                         <h2 data-aos="fade-up">Contact</h2>
                         <br />
                         <form  >
@@ -67,7 +69,6 @@ function Contacts() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

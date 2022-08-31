@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: rgb(93, 93, 93);
     color: #fff;
     text-align: center;
   }
@@ -20,7 +20,7 @@
     border-color: rgba(255, 255, 255, 0.2) !important;
   }
   #contact .btn {
-    background-color: #fff !important;
+    background-color: rgb(0, 0, 0) !important;
   }
   #contact .btn:hover {
     background-color: #000 !important;
@@ -34,7 +34,14 @@
     }
   }
 
-  .alig{
-    position: relative;
-    top: 10rem;
+  .contacts{
+    background: url(/public/assets/images/bg12.jpg);
+
+  }
+  .bl{
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: #fff solid 2px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
   }
