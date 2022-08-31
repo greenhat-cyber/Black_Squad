@@ -7,30 +7,36 @@ function Contacts() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="bg-image">
-                        <div className="signup" style={{height:"500px"}} data-aos="flip-left" data-aos-duration="1200">
+                        <div className="signup"  data-aos="flip-left" data-aos-duration="1200">
                             <div className="container">
 
                                 <form>
                                     <div className="row g-3 ps ">
-                                        <h1>Contact Us <hr /></h1>
+                                        <h1 data-aos="fade-up">Contact Us <hr /></h1>
 
                                         <div className="col-12">
-                                            <input type="text" className="form-control" placeholder="Your name" aria-label="Your name" />
+                                            <input data-aos="fade-up" type="text" className="form-control" placeholder="Your name" aria-label="Your name" />
                                         </div>
                                         <div className="col-12">
-                                            <input type="text" className="form-control" placeholder="Your Place" aria-label="Your Place" />
+                                            <input data-aos="fade-up" type="text" className="form-control" placeholder="Your Place" aria-label="Your Place" />
                                         </div>
                                         <div className="col-12">
-                                            <input type="email" className="form-control" placeholder="Email" aria-label="Email" />
+                                            <input data-aos="fade-up" type="email" className="form-control" placeholder="Email" aria-label="Email" />
                                         </div>
                                         <div className="col-12">
-                                            <input type="tel" className="form-control" placeholder="Mobile no" aria-label="Mobile no" />
+                                            <input data-aos="fade-up" type="tel" className="form-control" placeholder="Mobile no" aria-label="Mobile no" />
                                         </div>
                                         <div className="col-12">
-                                            <input type="text" className="form-control" placeholder="Message" aria-label="Message" />
+                                            <textarea
+                                                data-aos="fade-up"
+                                                name="user_message"
+                                                rows="4"
+                                                className="form-control"
+                                                placeholder="Your Message" required
+                                            ></textarea>
                                         </div>
                                         <div className="col-12">
-                                            <button type="button" className="btn btn-dark pe-5 ps-5" >Send</button>
+                                            <button data-aos="fade-up" type="button" className="btn btn-dark pe-5 ps-5 mt-3" >Send</button>
                                         </div>
 
                                     </div>
