@@ -15,16 +15,16 @@ function Contacts() {
                                         <h1 data-aos="fade-up">Contact Us <hr /></h1>
 
                                         <div className="col-12">
-                                            <input data-aos="fade-up" type="text" className="form-control" placeholder="Your name" aria-label="Your name" />
+                                            <input required data-aos="fade-up" type="text" className="form-control" placeholder="Your name" aria-label="Your name" />
                                         </div>
                                         <div className="col-12">
-                                            <input data-aos="fade-up" type="text" className="form-control" placeholder="Your Place" aria-label="Your Place" />
+                                            <input required data-aos="fade-up" type="text" className="form-control" placeholder="Your Place" aria-label="Your Place" />
                                         </div>
                                         <div className="col-12">
-                                            <input data-aos="fade-up" type="email" className="form-control" placeholder="Email" aria-label="Email" />
+                                            <input required data-aos="fade-up" type="email" className="form-control" placeholder="Email" aria-label="Email" />
                                         </div>
                                         <div className="col-12">
-                                            <input data-aos="fade-up" type="tel" className="form-control" placeholder="Mobile no" aria-label="Mobile no" />
+                                            <input required data-aos="fade-up" pattern="[0-9]{10}" title="Please enter valid number." type="tel" className="form-control" placeholder="Mobile no" aria-label="Mobile no" />
                                         </div>
                                         <div className="col-12">
                                             <textarea
@@ -36,7 +36,7 @@ function Contacts() {
                                             ></textarea>
                                         </div>
                                         <div className="col-12">
-                                            <button data-aos="fade-up" type="button" className="btn btn-dark pe-5 ps-5 mt-3" >Send</button>
+                                            <button data-aos="fade-up" type="submit" className="btn btn-dark pe-5 ps-5 mt-3" >Send</button>
                                         </div>
 
                                     </div>
