@@ -12,19 +12,19 @@ function Login() {
               <div className="container">
 
                 <form>
-                  <div class="row g-4 ps">
+                  <div className="row g-4 ps">
                     <h1>Log In <hr /></h1>
                     
 
-                      <div class="col-12 ps2">
-                        <input type="text" class="form-control" placeholder="User name" aria-label="User name" />
+                      <div className="col-12 ps2">
+                        <input type="text" className="form-control" placeholder="User name" aria-label="User name" />
                       </div>
-                      <div class="col-12 ps2">
-                        <input type="Password" class="form-control" placeholder="Password" aria-label="Password" />
+                      <div className="col-12 ps2">
+                        <input type="Password" className="form-control" placeholder="Password" aria-label="Password" />
                       </div>
 
-                      <div class="col-12 ps2">
-                        <button type="button" class="btn btn-dark" >Log in</button>
+                      <div className="col-12 ps2">
+                        <button type="button" className="btn btn-dark pe-5 ps-5" >Log in</button>
                       </div>
                       <p className='ps2' style={{ color: '#fff' }}>Don't have an account ? <NavLink to="/signup" style={{ color: '#0373fc' }}>Sign Up</NavLink></p>
                     

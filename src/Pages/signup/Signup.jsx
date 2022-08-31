@@ -12,29 +12,29 @@ function Signup() {
               <div className="container">
 
                 <form>
-                  <div class="row g-3 ps">
+                  <div className="row g-3 ps">
                     <h1>Sign Up <hr /></h1>
 
-                    <div class="col-12">
-                      <input type="text" class="form-control" placeholder="First name" aria-label="First name" />
+                    <div className="col-12">
+                      <input type="text" className="form-control" placeholder="First name" aria-label="First name" />
                     </div>
-                    <div class="col-12">
-                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" />
+                    <div className="col-12">
+                      <input type="text" className="form-control" placeholder="Last name" aria-label="Last name" />
                     </div>
-                    <div class="col-12">
-                      <input type="text" class="form-control" placeholder="User name" aria-label="User name" />
+                    <div className="col-12">
+                      <input type="text" className="form-control" placeholder="User name" aria-label="User name" />
                     </div>
-                    <div class="col-12">
-                      <input type="Password" class="form-control" placeholder="Password" aria-label="Password" />
+                    <div className="col-12">
+                      <input type="Password" className="form-control" placeholder="Password" aria-label="Password" />
                     </div>
-                    <div class="col-12">
-                      <input type="Password" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" />
+                    <div className="col-12">
+                      <input type="Password" className="form-control" placeholder="Confirm Password" aria-label="Confirm Password" />
                     </div>
-                    <div class="col-12">
-                      <input type="email" class="form-control" placeholder="Email" aria-label="Email" />
+                    <div className="col-12">
+                      <input type="email" className="form-control" placeholder="Email" aria-label="Email" />
                     </div>
-                    <div class="col-12">
-                      <button type="button" class="btn btn-dark" >SignUp</button>
+                    <div className="col-12">
+                      <button type="button" className="btn btn-dark pe-5 ps-5" >SignUp</button>
                     </div>
                     <p style={{ color: '#fff' }}>Already have an account ? <NavLink to="/login" style={{ color: '#0373fc' }}>Log in</NavLink></p>
 
