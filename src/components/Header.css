@@ -168,3 +168,6 @@ a{
     background-color: #fff;
 
 }
+.ind{
+    z-index: 1000;
+}

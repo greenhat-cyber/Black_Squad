@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 function Signup() {
   return (
-    <div>
+    <div className=''>
       <div className="container-fluid">
         <div className="row">
           <div className="bg-image">
